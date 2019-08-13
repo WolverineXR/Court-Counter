@@ -7,126 +7,126 @@
     tools:context=".MainActivity">
 
 
-    <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:orientation="horizontal">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-        <!--<LinearLayout-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_weight="1"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:gravity="center"-->
-            <!--android:orientation="vertical">-->
-
-
-            <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:padding="5dp"-->
-                <!--android:text="Team A"-->
-                <!--android:textSize="20sp" />-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/teamA_text_view"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:padding="5dp"-->
-                <!--android:text="0"-->
-                <!--android:textSize="20sp" />-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
 
 
-            <!--<Button-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_margin="8dp"-->
-                <!--android:text="+3 Points"-->
-                <!--android:textAllCaps="true"-->
-                <!--android:onClick="AddThreeToTeamA"/>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Team A"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/teamA_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="0"
+                android:textSize="20sp" />
 
 
-            <!--<Button-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_margin="8dp"-->
-                <!--android:onClick="AddTwoToTeamA"-->
-                <!--android:text="+2 Points"-->
-                <!--android:textAllCaps="true" />-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="+3 Points"
+                android:textAllCaps="true"
+                android:onClick="AddThreeToTeamA"/>
 
 
-            <!--<Button-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_margin="8dp"-->
-                <!--android:onClick="AddOneToTeamA"-->
-                <!--android:text="Free Throw"-->
-                <!--android:textAllCaps="true" />-->
-
-        <!--</LinearLayout>-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddTwoToTeamA"
+                android:text="+2 Points"
+                android:textAllCaps="true" />
 
 
-        <!--<LinearLayout-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_weight="1"-->
-            <!--android:gravity="center"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:orientation="vertical">-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddOneToTeamA"
+                android:text="Free Throw"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
 
 
-            <!--<TextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:padding="5dp"-->
-                <!--android:text="Team B"-->
-                <!--android:textSize="20sp" />-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/teamB_text_view"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:padding="5dp"-->
-                <!--android:text="0"-->
-                <!--android:textSize="20sp" />-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
 
-            <!--<Button-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_margin="8dp"-->
-                <!--android:onClick="AddThreeToTeamB"-->
-                <!--android:text="+3 Points"-->
-                <!--android:textAllCaps="true" />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Team B"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/teamB_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="0"
+                android:textSize="20sp" />
 
 
-            <!--<Button-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_margin="8dp"-->
-                <!--android:onClick="AddTwoToTeamB"-->
-                <!--android:text="+2 Points"-->
-                <!--android:textAllCaps="true" />-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddThreeToTeamB"
+                android:text="+3 Points"
+                android:textAllCaps="true" />
 
 
-            <!--<Button-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_margin="8dp"-->
-                <!--android:onClick="AddOneToTeamB"-->
-                <!--android:text="Free Throw"-->
-                <!--android:textAllCaps="true" />-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddTwoToTeamB"
+                android:text="+2 Points"
+                android:textAllCaps="true" />
 
-        <!--</LinearLayout>-->
 
-    <!--</LinearLayout>-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="AddOneToTeamB"
+                android:text="Free Throw"
+                android:textAllCaps="true" />
 
-    <!--<Button-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginBottom="50dp"-->
-        <!--android:text="Reset"-->
-        <!--android:textAllCaps="true"-->
-        <!--android:onClick="resetScore"/>-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="Reset"
+        android:textAllCaps="true"
+        android:onClick="resetScore"/>
 
 </RelativeLayout>
